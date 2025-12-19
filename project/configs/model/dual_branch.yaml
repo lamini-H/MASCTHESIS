@@ -1,0 +1,10 @@
+in_channels: 1
+
+local_shape: [16, 32, 32]
+global_shape: [32, 64, 64]
+
+base_channels: 16
+dropout: 0.2
+fusion_dim: 256
+
+num_classes: 2   

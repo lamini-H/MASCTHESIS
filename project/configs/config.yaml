@@ -1,0 +1,8 @@
+defaults:
+  - data: picai
+  - model: dual_branch
+  - train: default
+
+hydra:
+  run:
+    dir: outputs/${now:%Y-%m-%d}/${now:%H-%M-%S}

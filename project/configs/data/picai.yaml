@@ -1,0 +1,16 @@
+local_root: /scratch/brussel/114/vsc11434/uniform_instances_v3
+global_root: /scratch/brussel/114/vsc11434/global_volumes
+csv_path: /scratch/brussel/114/vsc11434/marksheet.csv
+
+num_folds: 5
+fold: 0              # 0..4 (this is your test fold in CV)
+
+# split inside train folds
+val_ratio: 0.1
+seed: 42
+
+k_patches: 16
+sample_strategy: random
+pad_value: 0.0
+
+label_col: case_csPCa
